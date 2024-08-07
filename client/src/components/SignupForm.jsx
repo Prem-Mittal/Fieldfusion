@@ -34,7 +34,7 @@ function SignupForm(props) {
         toast.error("All fields are required");
       } else {
         const Response = await axios.post(
-          "http://localhost:3000/api/v1/users/register",
+          "/api/v1/users/register",
           signupData
         );
         if (Response.status === 201) {
