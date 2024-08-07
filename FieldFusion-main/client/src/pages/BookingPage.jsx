@@ -51,7 +51,7 @@ function BookingPage() {
                              onClick={()=> navi('/checkout')}
                         >
                             <Card img={GorillaCage}
-                                  title="Gorilla Cage, Bidholi,Dehradun"
+                                  title="Jawaharlal Nehru Stadium"
                                   price="₹1100 / hour"
                                   parking="Available"
                                   bathrooms="Available"
@@ -65,7 +65,7 @@ function BookingPage() {
                              }}
                         >
                             <Card img={PavilionGround}
-                                  title="Pavilion Ground, Chukkuwala, Dehradun"
+                                  title="Indira Gandhi Indoor Stadium"
                                   price="₹1500 / hour"
                                   parking="Unavailable"
                                   bathrooms="Available"
@@ -80,7 +80,7 @@ function BookingPage() {
                              }}
                         >
                             <Card img={KickOff}
-                                  title="Kick Off, Mothrowala, Dehradun"
+                                  title="DDA Siri Fort Sports Complex"
                                   price="₹800 / hour"
                                   parking="Unavailable"
                                   bathrooms="Available"
